@@ -8,7 +8,7 @@
             border: 3px solid; color: rgba(128, 19, 0, 0.658); margin: auto; 
         }
         .contrato {
-            background-image: url(http://127.0.0.1/Proyecto%20Natalia/img/marissa-grootes-vdaJJbls3xE-unsplash.jpg); background-size: 1500px ; padding-bottom:5cm; padding-top: 2cm;
+            background-image: url(https://raw.githubusercontent.com/IanBorruey/Natalia/main/img/marissa-grootes-vdaJJbls3xE-unsplash.jpg); background-size: 1500px ; padding-bottom:5cm; padding-top: 2cm;
             border: none; background-position-x:right ; background-position-y:38cm
 
         }
@@ -17,6 +17,6 @@
         }
 
         .servicios- {
-            background-image:url(http://127.0.0.1/Proyecto%20Natalia/img/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg); background-size: 6500px; 
+            background-image:url(https://raw.githubusercontent.com/IanBorruey/Natalia/main/img/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg); background-size: 6500px; 
 
         }
