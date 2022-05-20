@@ -1,0 +1,22 @@
+        * {
+            border: 3px greenyellow; color:black; margin:5px ; margin-right: 200px;
+        }
+        table, tr, th, thead, tbody, td {
+            border:solid 3px; color: black;margin:auto; border-collapse:collapse; background-color: rgba(0, 0, 0, 0.096); padding: 50px;
+        }
+        section, div {
+            border: 3px solid; color: rgba(128, 19, 0, 0.658); margin: auto; 
+        }
+        .contrato {
+            background-image: url(http://127.0.0.1/Proyecto%20Natalia/img/marissa-grootes-vdaJJbls3xE-unsplash.jpg); background-size: 1500px ; padding-bottom:5cm; padding-top: 2cm;
+            border: none; background-position-x:right ; background-position-y:38cm
+
+        }
+        .descripcion {
+            border: 2px;
+        }
+
+        .servicios- {
+            background-image:url(http://127.0.0.1/Proyecto%20Natalia/img/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg); background-size: 6500px;
+
+        }
