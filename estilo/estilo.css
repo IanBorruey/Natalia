@@ -1,22 +1,55 @@
         * {
-            border: 5px greenyellow; color:black; margin:5px ; margin-right: 200px;
+            border:greenyellow; color:black; margin:0px ; margin-right: 8%; padding: 0px;
         }
-        table, tr, th, thead, tbody, td {
-            border:solid 3px; color: black;margin:auto; border-collapse:collapse; background-color: rgba(0, 0, 0, 0.096); padding: 70px
-        }
-        section, div {
-            border: 3px solid; color: rgba(128, 19, 0, 0.658); margin: auto; 
-        }
-        .contrato {
-            background-image: url(https://raw.githubusercontent.com/IanBorruey/Natalia/main/img/marissa-grootes-vdaJJbls3xE-unsplash.jpg); background-size: 1500px ; padding-bottom:5cm; padding-top: 2cm;
-            border: none; background-position-x:right ; background-position-y:38cm
 
+        body {
+            margin-top: 250px;
         }
+
+        section {
+            border: 3px solid;
+            margin-left: 2px;
+        }
+
+        .contrato {
+            background-image: url(https://raw.githubusercontent.com/IanBorruey/Natalia/main/img/marissa-grootes-vdaJJbls3xE-unsplash.jpg);
+            padding-bottom:5cm;
+            padding-top: 2cm;
+            background-repeat: no-repeat; 
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            padding-left: 20px;
+        }
+        
         .descripcion {
-            background-color:rgba(0, 255, 42, 0.192)
+            margin: auto;
+            padding-left: 20px;
         }
 
         .servicios- {
-            background-image:url(https://raw.githubusercontent.com/IanBorruey/Natalia/main/img/kelly-sikkema-tQQ4BwN_UFs-unsplash.jpg); background-size: 6500px; 
+            background-image:url(./../img/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+            background-repeat: no-repeat; 
+            background-position:center;
+            background-size:cover;
+            background-attachment: fixed;
+            padding-left: 30px;
+        }
+
+        li {
+            background-color: rgba(255, 255, 255, 0.274);
+        }
+
+        header {
+            position: fixed;
+            top: 0px;
+
+            display: flex;
+            justify-content: center;
+            margin: 15px;
+        }
+
+        nav ul li {
+            display:inline-block
 
         }
