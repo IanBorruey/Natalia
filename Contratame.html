@@ -5,9 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ian Borruey">
+    <meta name="contacto" content="Formulario de contacto">
     <title>Contratame</title>
+    <link rel="stylesheet" href="./estilo/estilo-contacto.css">
 </head>
 <body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <main>
+        <form name="datos" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset class="container-1">
+                <legend class="legends">Información Personal</legend>
     
+                <label for="nombre">Nombre:</label>
+                <input type="text"  name="nombre" required placeholder="Ingrese su nombre">
+    
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" required placeholder="Ingrese su apellido">       
+
+                <label>Género</label>
+                    <input list="genero" name="genero" required placeholder="Seleccionar">
+                    <datalist id="genero">
+                      <option value="Masculino">
+                      <option value="Femenino">
+                      <option value="Otro">
+                    </datalist>
+                
+                <label for="dni">DNI:</label>
+                <input type="number" name="documento-nacional" required placeholder="Ingrese su Documento">
+
+                <label for="tipo-telefono">Tipo de Teléfono:</label>
+                <input list="tipo-telefono" name="tipo-telefono" required placeholder="Seleccionar">
+                <datalist id="tipo-telefono">
+                  <option value="Celular">
+                  <option value="Fijo">
+                </datalist>          
+                      
+                <label for="telefono">Teléfono:</label>
+                <input type="number" name="telefono" required placeholder="Ingrese su Teléfono">
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="text" name="correo" required placeholder="Ingrese su Correo">
+            </fieldset>
+            
+            <input type="reset" name="resetear" value="Borrar todo" class="reset">
+            <input type="submit" name="guardar" class="submit">
+        </form>
+    </main>
 </body>
+</html>
 </html>
