@@ -1,14 +1,13 @@
         * {
-            border:greenyellow; color:black; margin:0px ; margin-right: 8%; padding: 0px;
+            color:black;
         }
 
         body {
-            margin-top: 250px;
+            margin-top: 0px;
         }
 
         section {
             border: 3px solid;
-            margin-left: 2px;
         }
 
         .contrato {
@@ -23,8 +22,19 @@
         }
         
         .descripcion {
-            margin: auto;
             padding-left: 20px;
+            padding-right: 20px;
+            background-color:rgba(255, 255, 255, 0.39);
+            margin-top: 100px;
+            font-size: 2vh;
+        }
+
+        .main1 {
+            background-image:url(./../img/scott-graham-OQMZwNd3ThU-unsplash.jpg);
+            background-repeat: no-repeat; 
+            background-position:center;
+            background-size:cover;
+            background-attachment: fixed;
         }
 
         .servicios- {
@@ -34,22 +44,68 @@
             background-size:cover;
             background-attachment: fixed;
             padding-left: 30px;
+            margin-left: 0px;
+            margin-right: 0px;
         }
 
-        li {
-            background-color: rgba(255, 255, 255, 0.274);
+        .difuminado-lista {
+            background-color: rgba(255, 255, 255, 0.39);
+            width: calc(100% - 100px);
         }
 
         header {
-            position: fixed;
-            top: 0px;
+            position:relative;
+            top:0px;
+            left: 0px;
+            z-index: 1;
+            padding: 10px 10px;
+            background-color: rgb(1, 165, 102);
+            width: 100%;
 
             display: flex;
+            justify-content:center;
+            margin: 0px;   
+        }
+
+        nav ul li{
+            display: inline-block;
             justify-content: center;
-            margin: 15px;
         }
 
-        nav ul li {
-            display:inline-block
+        main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+        .main1 { grid-area: 1 / 1 / 2 / 2; }
+        .main2 { grid-area: 1 / 2 / 2 / 3; }
+        .main3 { grid-area: 2 / 1 / 3 / 3; }
 
+        .grid-logros {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            font-size: 2vh;
+            }
+            
+            .logros1 { grid-area: 1 / 1 / 2 / 2; }
+            .metas1 { grid-area: 1 / 2 / 2 / 3; }
+
+        .main3 {
+            background-image: url(https://images.unsplash.com/photo-1653511442060-00c7b10827c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-repeat: no-repeat; 
+            background-position:center;
+            background-size:cover;
+            font-variant: small-caps;
+            
         }
+        .difuminado-logros{
+            background-color: rgba(255, 255, 255, 0.473);
+            margin-top: 100px;
+        }
+

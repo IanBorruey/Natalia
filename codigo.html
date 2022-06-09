@@ -8,29 +8,29 @@
     <meta name="description" content="Página web de Estudio Contable VARELA">
     <title>Estudio Contable VARELA</title>
     <link rel="stylesheet" href="./estilo/estilo.css">
+    <link rel="stylesheet" href="./estilo/estilo-header.css">
 </head>
 <body>
     <header>
-        <img src="./img/IMG-20210723-WA0101.jpg" alt="foto de Natalia" height="200">
         <nav class="navegacion">
             <ul>
                 <li>
-                    <a href="#quienes">Estudio Contable</a>
+                    <a href="#quienes" id="nav1">Estudio Contable</a>
                 </li>
                 <li>
-                    <a href="#servicios">Servicios</a>
+                    <a href="#servicios" id="nav2">Servicios</a>
                 </li>
                 <li>
-                    <a href="#logros-metas">Logros y Metas</a>
+                    <a href="#logros-metas" id="nav3">Logros/Metas</a>
                 </li>
                 <li>
-                    <a href="#contratame">Contrato</a>
+                    <a href="#contratame" id="nav4">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="quienes">
+        <section id="quienes" class="main1">
             <div class="descripcion">
                 <h1>Estudio Contable</h1>
                 <p>
@@ -38,14 +38,14 @@
                 </p>
             </div>
         </section>
-        <section id="servicios" class="servicios-">
+        <section id="servicios" class="servicios- main2">
             <div>
                 <h2>Servicios</h2>
             </div>
             <div>
-                <ol>
+                <ol class="difuminado-lista">
                     <li>
-                        <h2>Societario</h2>
+                        <h3>Societario</h3>
                     </li>
                     <ul>
                         <li>
@@ -65,7 +65,7 @@
                         </li>
                     </ul>
                     <li>
-                        <h2>Administrativo, Contable y Financiero</h2>
+                        <h3>Administrativo, Contable y Financiero</h3>
                     </li>
                     <ul>
                         <li>
@@ -85,7 +85,7 @@
                         </li>
                     </ul>
                     <li>
-                        <h2>Impositivo y Previsional</h2>
+                        <h3>Impositivo y Previsional</h3>
                     </li>
                     <ul>
                         <li>
@@ -107,35 +107,29 @@
                             Asesoramiento integral en materia laboral: Ley de Contrato de Trabajo, despidos, ascensos, contratos a prueba, evaluación del nivel de remuneraciones
                         </li>
                 </ol>
-            </div>            
+            </div>  
         </section>
-        <section class="logros-metas">
-            <div>
-               <ul>
-                   <li>Logros</li>
-                   <li>Metas</li>
-
-                   <tbody>
-                       <tr>
-                           <td>Graduada de la facultad de Ciencias Económicas UBA</td>
-                           <td>Iniciar una diplomatura en Normas de Contabilidad y de Auditoria Nacionales e Internacionales</td>
-                       </tr>
-                       <tr>
-                           <td>Gerenta de Comex en empresa exportadora del rubro cárnico</td>
-                           <td>Prestar servicios en el exterior</td>
-                       </tr>
-                   </tbody>
-               </ul>
+        <section id="logros-metas" class="main3">
+            <div class="difuminado-logros">
+                <ul class="grid-logros">
+                    <div class="logros1">
+                        <p>Logros</p>
+                        <li>Graduada de la facultad de Ciencias Económicas UBA</li>
+                        <li>Gerenta de Comex en empresa exportadora del rubro cárnico</li>
+                    </div>
+                    <div class="metas1">
+                        <p>Metas</p>
+                        <li>Iniciar una diplomatura en Normas de Contabilidad y de Auditoria Nacionales e Internacionales</li>
+                        <li>Prestar servicios en el exterior</li>
+                    </div>
+                </ul>
             </div>
         </section>
-
     </main>
     <footer id="contratame" class="contrato">
+        <section>
         <p>
-            <a href="./Contratame.html">Contacto</a>
-        </p>
-        <p>
-            Whatsapp:541151615501
+            <a href="./Contratame.html"><h2>Contacto</h2></a>
         </p>
         <p>
             Email:natalia@varelaestudio.com
@@ -149,6 +143,7 @@
         <p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.649989916133!2d-58.33589018423413!3d-34.714007070849924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33285916a9625%3A0x2d0baf32ce0bcd1d!2sPaysand%C3%BA%201351%2C%20Wilde%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1654560668635!5m2!1ses-419!2sar" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </p>
+        </section>
     </footer>
 
 </body>
